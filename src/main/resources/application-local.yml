@@ -1,0 +1,3 @@
+image:
+  real_directory: src/main/resources/static/images/
+  presentation_directory: /images/

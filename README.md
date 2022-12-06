@@ -15,7 +15,7 @@ text-editor 첨부 이미지 creat,read를 위한 이미지 서버
 
 <br>
 
-### [요구사항 & API](https://github.com/pds0309/almeta_imageserver/wiki/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD)
+### [요구사항 & API](https://github.com/pds0309/almeta_imageserver/wiki/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-&-api)
 
 
 <br>

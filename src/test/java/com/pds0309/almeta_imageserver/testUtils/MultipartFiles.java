@@ -12,7 +12,7 @@ public class MultipartFiles {
     }
 
     public static MultipartFile ofValid(String name) throws IOException {
-        return TestImageFactory.ofJPGSample("hello");
+        return TestImageFactory.ofJPGSample(name);
     }
 
     public static List<MultipartFile> ofInvalids() {

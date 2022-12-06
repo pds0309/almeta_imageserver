@@ -32,7 +32,7 @@ class FileHandlerTest {
     void shouldValidFileRequestReturnFilename() throws IOException {
         String name = "helo";
         assertThat(fileHandler.getFileName(MultipartFiles.ofValid(name), "date"))
-                .isEqualTo("date-hello.jpg");
+                .isEqualTo("date-helo.jpg");
     }
 
     @ParameterizedTest

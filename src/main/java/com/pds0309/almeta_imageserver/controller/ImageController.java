@@ -28,6 +28,7 @@ public class ImageController {
             @Valid @ModelAttribute(name = "upload") UploadRequest uploadRequest,
             BindingResult bindingResult) {
         validValidationError(bindingResult);
+        uploadRequest.setCategory();
         return ResponseEntity.ok(imageService.saveImage(file, uploadRequest));
     }
 

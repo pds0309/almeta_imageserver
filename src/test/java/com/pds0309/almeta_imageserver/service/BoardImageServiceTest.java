@@ -41,7 +41,7 @@ class BoardImageServiceTest {
     private final String PRES_DIR = "/images/";
     private final String IMAGE_NAME = "test-image";
 
-    private final UploadRequest uploadRequest = new UploadRequest(1L, Category.ALGO_POST.name());
+    private final UploadRequest uploadRequest = new UploadRequest(1L, Category.ALGO_POST.getName());
 
     private final static String CURRENT_DATE = LocalDate.of(2019, 10, 4).format(DATE_FORMATTER);
     private final static String CURRENT_TIME = LocalTime.of(10, 4, 6).format(TIME_FORMATTER);

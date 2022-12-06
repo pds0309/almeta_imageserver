@@ -11,6 +11,7 @@ import javax.validation.constraints.*;
 
 @Getter
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
+@AllArgsConstructor
 public class UploadRequest {
 
     private static final String INVALID_UPLOADER_MESSAGE = "업로더 정보가 올바르지 않습니다";
@@ -22,9 +23,8 @@ public class UploadRequest {
     @NotBlank(message = "카테고리를 입력하세요")
     String category;
 
-    public UploadRequest(Long uploader, String category) {
-        this.uploader = uploader;
-        this.category = Category.getNameByValueOf(category);
+    public void setCategory() {
+        this.category = Category.getNameByValueOf(this.category);
     }
 
 }

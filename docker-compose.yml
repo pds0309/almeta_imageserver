@@ -1,1 +1,6 @@
 version: "3.9"
+services:
+  app:
+    image: ehd0309/almeta_image_server:latest
+    ports:
+      - "8075:8075"
